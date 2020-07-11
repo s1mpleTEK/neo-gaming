@@ -1,0 +1,118 @@
+/*José*/
+/*@import url('https://fonts.googleapis.com/css?family=Lato:100');*/
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+
+/*TITRE*/
+body{
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Lato', sans-serif;*/
+    background: black;
+}
+.tittle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) skewY(-5deg);
+    border: 4px solid white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px blue, 0 0 30px blue, inset 0 0 10px blue, inset 0 0 30px blue;
+    /*box-shadow: 0 0 10px #BA55D3, 0 0 30px #BA55D3, inset 0 0 10px #BA55D3, inset 0 0 30px #BA55D3;*/
+    transition: 0.5s;
+    /*animation: animate .1s linear infinite;*/
+}
+.tittle:before{
+    content:'';
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: white;
+    box-shadow: 0 0 10px blue, 0 0 30px blue;
+    /*box-shadow: 0 0 10px #BA55D3, 0 0 30px #BA55D3;*/
+    z-index: -1;
+    transition: 0.5s;
+}
+.tittle:after{
+    content:'';
+    position: absolute;
+    top: 95px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: white;
+    box-shadow: 0 0 10px blue, 0 0 30px blue;
+    /*box-shadow: 0 0 10px #BA55D3, 0 0 30px #BA55D3;*/
+    z-index: -1;
+    transition: 0.5s;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    color: white;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 80px red, 0 0 120px red;
+    /*text-shadow: 0 0 10px #00FF7F, 0 0 20px #00FF7F, 0 0 80px #00FF7F, 0 0 120px #00FF7F;*/
+    transition: 0.5s;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+h1 span{
+    animation: animate .5s linear infinite;
+}
+h1 span:nth-child(1){
+    animation-delay: .25s;
+}
+h1 span:nth-child(2){
+    animation-delay: .15s;
+}
+h1 span:nth-child(3){
+    animation-delay: .5s;
+}
+h1 span:nth-child(4){
+    animation-delay: .2s;
+}
+h1 span:nth-child(5){
+    animation-delay: .45s;
+}
+h1 span:nth-child(6){
+    animation-delay: .85s;
+}
+h1 span:nth-child(7){
+    animation-delay: .4s;
+}
+h1 span:nth-child(8){
+    animation-delay: .75s;
+}
+h1 span:nth-child(9){
+    animation-delay: .65s;
+}
+h1 span:nth-child(10){
+    animation-delay: .95s;
+}
+
+/* Animation */
+
+@keyframes animate{
+    0%
+    {
+        opacity: 1;
+    }
+    30%
+    {
+        opacity: 1;
+    }
+    40%
+    {
+        opacity: 0.5;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,13 @@
+/*José*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+img{
+    border-radius: 10px;
+    background: white;
+}
+body{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.flotte{
+    float: left;
+}
